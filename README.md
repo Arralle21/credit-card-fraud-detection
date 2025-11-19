@@ -11,8 +11,9 @@ File	Description
 credit_card_fraud_detection.ipynb	Complete EDA & Preprocessing
 Data_Overview.pptx	Project Presentation
 README.md	Project Documentation
+
 🔗 Dataset Information
-Source: Kaggle Credit Card Fraud Dataset
+Source: Kaggle Credit Card Fraud Dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
 Total Transactions: 284,807 (Original) → 55,551 (Processed)
 Features: 31 Original + 4 Engineered
 Class Distribution: Highly Imbalanced
@@ -38,12 +39,15 @@ Standardization (StandardScaler)
 Correlation Analysis
 
 📊 Feature Engineering
+
 Feature	Description
 Amount_scaled	Standardized transaction amount
 Time_scaled	Standardized time feature
 Hour	Extracted hour from timestamp
 Day	Extracted day from timestamp
+
 📈 Key Insights
+
 🔍 Top Fraud Correlations
 Positive Correlation	Negative Correlation
 V11: 0.235	V17: -0.478
