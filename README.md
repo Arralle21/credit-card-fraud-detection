@@ -1,20 +1,13 @@
 💳 Credit Card Fraud Detection
-
 📊 Project Overview
-
 A comprehensive machine learning project designed to detect fraudulent credit card transactions using advanced business analytics and predictive modeling techniques.
 
 🗂️ Repository Structure
-
-credit-card-fraud-detection/
-│
-├── credit_card_fraud_detection.ipynb
-├── Data_Overview.pptx
-└── README.md
-
-
+File	Type	Description
+credit_card_fraud_detection.ipynb	📓 Jupyter Notebook	Complete EDA & Preprocessing
+Data_Overview.pptx	🎓 Presentation	Project Presentation
+README.md	📖 Documentation	Project Documentation
 🔗 Dataset Information
-
 Attribute	Details
 Source	Kaggle Credit Card Fraud Dataset
 Total Transactions	284,807 (Original) → 55,551 (Processed)
@@ -26,7 +19,6 @@ Transaction Type	Count	Percentage
 🔴 Fraud	156	0.28%
 🛠️ Technical Implementation
 🔧 Data Processing Pipeline
-
 python
 1. ✅ Data Collection & Loading
 2. ✅ Data Quality Assessment
@@ -35,8 +27,6 @@ python
 5. ✅ Feature Engineering
 6. ✅ Standardization (StandardScaler)
 7. ✅ Correlation Analysis
-
-
 📊 Feature Engineering
 Feature	Type	Description
 Amount_scaled	Engineered	Standardized transaction amount
@@ -98,8 +88,6 @@ Data Analytics Capstone Project
 📄 License
 This project is for educational purposes as part of academic coursework.
 
-
 <div align="center">
 🔮 Ready for the next phase of model development! 🔮
 </div>
-⭐ Don't forget to star this repository if you find it helpful!
