@@ -1,97 +1,59 @@
-💳 Credit Card Fraud Detection
+Credit Card Fraud Detection
 
-📊 Project Overview
+Project Overview
 
-A comprehensive machine learning project designed to detect fraudulent credit card transactions using advanced business analytics and predictive modeling techniques.
+Machine learning project to detect fraudulent credit card transactions using business analytics techniques.
 
-🗂️ Repository Structure
-File	Description
-credit_card_fraud_detection.ipynb	Complete EDA & Preprocessing
-Data_Overview.pptx	Project Presentation
-README.md	Project Documentation
-🔗 Dataset Information
+Files
+credit_card_fraud_detection.ipynb - Complete data analysis and preprocessing
+
+Data_Overview.pptx - Project presentation slides
+
+README.md - Project documentation
+
+Dataset
 Source: Kaggle Credit Card Fraud Dataset
-Total Transactions: 284,807 (Original) → 55,551 (Processed)
-Features: 31 Original + 4 Engineered
-Class Distribution: Highly Imbalanced
 
-📈 Class Distribution
-Transaction Type	Count	Percentage
-Normal	55,394	99.72%
-Fraud	156	0.28%
-🛠️ Technical Implementation
-🔧 Data Processing Pipeline
-Data Collection & Loading
+Key Statistics:
 
-Data Quality Assessment
+Original transactions: 284,807
 
-Missing Value Treatment
+Processed transactions: 55,551
 
-Duplicate Removal
+Features: 31 original + 4 engineered
 
-Feature Engineering
+Class distribution: 99.72% normal, 0.28% fraud
 
-Standardization (StandardScaler)
+Data Processing Steps
+Data quality assessment
 
-Correlation Analysis
+Missing value treatment
 
-📊 Feature Engineering
-Feature	Description
-Amount_scaled	Standardized transaction amount
-Time_scaled	Standardized time feature
-Hour	Extracted hour from timestamp
-Day	Extracted day from timestamp
-📈 Key Insights
-🔍 Top Fraud Correlations
-Positive Correlation	Negative Correlation
-V11: 0.235	V17: -0.478
-V4: 0.211	V14: -0.426
-V2: 0.170	V12: -0.331
-⚠️ Data Challenges
-Severe Class Imbalance (355:1 ratio)
+Duplicate removal
 
-Right-skewed Amount Distribution
+Feature engineering
 
-Limited Time Window (13.1 hours)
+Data standardization
 
-🚀 Getting Started
-📥 Installation & Setup
-Download Dataset from Kaggle
+Correlation analysis
 
-Clone Repository
+Key Findings
+Severe class imbalance (355:1 ratio)
 
-bash
-git clone https://github.com/yourusername/credit-card-fraud-detection.git
-Install Dependencies
+Strong fraud indicators: V17, V14, V12 (negative correlation)
 
-bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-Run Analysis
+Most transactions under $100
 
-bash
-jupyter notebook credit_card_fraud_detection.ipynb
-🛡️ Ethical Considerations
-Privacy Protection: All features anonymized via PCA
+Data covers 13.1 hours of transaction time
 
-Bias Mitigation: SMOTE/undersampling strategies planned
+Getting Started
+Download dataset from Kaggle link above
 
-Ethical Use: Fraud prevention & customer protection focus
+Run the Jupyter notebook
 
-📋 Next Steps
-Feature Selection based on correlation analysis
+Review the presentation for overview
 
-Address class imbalance (SMOTE/Undersampling)
-
-Model Development (Logistic Regression, Random Forest, XGBoost)
-
-Model Evaluation & Optimization
-
-Deployment Strategy
-
-👨‍💻 Author
+Author
 Abdullahi Mohamed Jibril
 Data Analytics Capstone Project
 November 19, 2025
-
-📄 License
-This project is for educational purposes as part of academic coursework.
