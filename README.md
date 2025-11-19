@@ -15,7 +15,9 @@ README.md	Project Documentation
 🔗 Dataset Information
 
 Source: Kaggle Credit Card Fraud Dataset : https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
 Processed Dataset you can also download : https://drive.google.com/file/d/1CZiBQf-M2I5D1luaom_rmwgt7c22o47E/view?usp=drive_link
+
 Total Transactions: 284,807 (Original) → 55,551 (Processed)
 Features: 31 Original + 4 Engineered
 Class Distribution: Highly Imbalanced
