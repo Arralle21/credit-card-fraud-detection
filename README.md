@@ -11,7 +11,10 @@ text
 ├── 📄 credit_card_fraud_detection.ipynb    # Complete EDA & Preprocessing
 ├── 🎓 Data_Overview.pptx                   # Project Presentation
 └── 📖 README.md                            # Project Documentation
+
+
 🔗 Dataset Information
+
 Attribute	Details
 Source	Kaggle Credit Card Fraud Dataset
 Total Transactions	284,807 (Original) → 55,551 (Processed)
@@ -23,6 +26,7 @@ Transaction Type	Count	Percentage
 🔴 Fraud	156	0.28%
 🛠️ Technical Implementation
 🔧 Data Processing Pipeline
+
 python
 1. ✅ Data Collection & Loading
 2. ✅ Data Quality Assessment
@@ -31,6 +35,8 @@ python
 5. ✅ Feature Engineering
 6. ✅ Standardization (StandardScaler)
 7. ✅ Correlation Analysis
+
+
 📊 Feature Engineering
 Feature	Type	Description
 Amount_scaled	Engineered	Standardized transaction amount
