@@ -5,12 +5,12 @@
 A comprehensive machine learning project designed to detect fraudulent credit card transactions using advanced business analytics and predictive modeling techniques.
 
 🗂️ Repository Structure
-text
-📁 credit-card-fraud-detection/
+
+credit-card-fraud-detection/
 │
-├── 📄 credit_card_fraud_detection.ipynb    # Complete EDA & Preprocessing
-├── 🎓 Data_Overview.pptx                   # Project Presentation
-└── 📖 README.md                            # Project Documentation
+├── credit_card_fraud_detection.ipynb
+├── Data_Overview.pptx
+└── README.md
 
 
 🔗 Dataset Information
