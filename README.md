@@ -54,6 +54,9 @@ Run the Jupyter notebook
 Review the presentation for overview
 
 Author
+
 Abdullahi Mohamed Jibril
+
 Data Analytics Capstone Project
+
 November 19, 2025
